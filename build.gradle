@@ -15,13 +15,14 @@ repositories {
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testImplementation 'junit:junit:4.13.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.projectlombok:lombok:1.18.24'
     //Getter, Setter, 생성자 등을 어노테이션으로 자동 생성
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.7.4'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.4'
     implementation 'com.h2database:h2:'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
